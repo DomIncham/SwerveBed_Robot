@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /workspaces/ros2/SwerveBed_Robot/build/swerve_robot_description/CMakeCache.txt is different than the directory /workspaces/ros2/swerve_robot/build/swerve_robot_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/workspaces/ros2/swerve_robot/src/swerve_robot_description" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

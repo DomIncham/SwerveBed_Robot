@@ -1,0 +1,27 @@
+[0.530s] Invoking command in '/workspaces/ros2/swerve_robot/build/swerve_controller': PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2/swerve_robot/build/swerve_controller/build --no-deps symlink_data --force
+[0.750s] running develop
+[0.856s] running egg_info
+[0.856s] writing swerve_controller.egg-info/PKG-INFO
+[0.856s] writing dependency_links to swerve_controller.egg-info/dependency_links.txt
+[0.856s] writing entry points to swerve_controller.egg-info/entry_points.txt
+[0.856s] writing requirements to swerve_controller.egg-info/requires.txt
+[0.856s] writing top-level names to swerve_controller.egg-info/top_level.txt
+[0.857s] reading manifest file 'swerve_controller.egg-info/SOURCES.txt'
+[0.858s] writing manifest file 'swerve_controller.egg-info/SOURCES.txt'
+[0.859s] running build_ext
+[0.859s] Creating /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve-controller.egg-link (link to .)
+[0.860s] Installing wheel_cmd_publisher script to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller
+[0.860s] Installing wheel_odometry script to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller
+[0.860s] 
+[0.860s] Installed /workspaces/ros2/swerve_robot/build/swerve_controller
+[0.860s] running symlink_data
+[0.860s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/resource/swerve_controller -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/ament_index/resource_index/packages
+[0.860s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/package.xml -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller
+[0.860s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/launch/swerve_control_odom.launch.py -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/launch
+[0.861s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/config/robot_geometry.yaml -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/config
+[0.861s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/config/controller.yaml -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/config
+[0.861s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/swerve_controller/__init__.py -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller
+[0.861s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/swerve_controller/swerve_joints.py -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller
+[0.861s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/swerve_controller/swerve_commander.py -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller
+[0.861s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_controller/swerve_controller/swerve_odometer.py -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller
+[0.882s] Invoked command in '/workspaces/ros2/swerve_robot/build/swerve_controller' returned '0': PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2/swerve_robot/build/swerve_controller/build --no-deps symlink_data --force

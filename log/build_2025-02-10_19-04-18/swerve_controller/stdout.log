@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/swerve_controller/swerve_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/swerve_controller/swerve_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/swerve_controller/swerve_controller.egg-info/entry_points.txt
+writing requirements to ../../build/swerve_controller/swerve_controller.egg-info/requires.txt
+writing top-level names to ../../build/swerve_controller/swerve_controller.egg-info/top_level.txt
+reading manifest file '../../build/swerve_controller/swerve_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/swerve_controller/swerve_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller
+copying launch/swerve_control_odom.launch.py -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller
+running install_egg_info
+removing '/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/swerve_controller/swerve_controller.egg-info to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info
+running install_scripts
+Installing wheel_cmd_publisher script to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller
+Installing wheel_odometry script to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller
+writing list of installed files to '/workspaces/ros2/swerve_robot/build/swerve_controller/install.log'

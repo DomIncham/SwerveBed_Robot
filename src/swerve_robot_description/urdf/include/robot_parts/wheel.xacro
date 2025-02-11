@@ -1,0 +1,40 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Wheel Link + Joint -->
+  <xacro:macro name="wheel" params="locationprefix orix oriy oriz axisy">
+
+    <link name="${locationprefix}_wheel_link">
+      <inertial>
+        <origin xyz="${orix} ${oriy} ${oriz}" rpy="0 0 0" />
+        <mass value="0.289734264180104" />
+        <inertia ixx="0.000296124754858232" ixy="1.76939102903921E-20" ixz="1.33358400077123E-21" iyy="0.000296124754858232" iyz="-5.42054185324938E-20" izz="0.00052579928533405" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="1.5707963267949 0 0" />
+        <geometry>
+          <mesh filename="file://$(find swerve_robot_description)/meshes/${locationprefix}_wheel_link.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="1.5707963267949 0 0" />
+        <geometry>
+          <mesh filename="file://$(find swerve_robot_description)/meshes/${locationprefix}_wheel_link.dae" />
+        </geometry>
+      </collision>
+    </link>
+
+    <gazebo reference="${locationprefix}_wheel_link">
+      <material>Gazebo/Black</material>
+    </gazebo>
+
+    <joint name="wheel_${locationprefix}_joint" type="continuous">
+      <origin xyz="0.0 0.0 -0.1325" rpy="0 0 0" />
+      <parent link="${locationprefix}_steering_link" />
+      <child link="${locationprefix}_wheel_link" />
+      <axis xyz="0 ${axisy} 0" />
+      <limit effort="1.0" velocity="27" />
+    </joint>
+
+  </xacro:macro>
+
+</robot>

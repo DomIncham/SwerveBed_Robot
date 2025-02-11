@@ -1,0 +1,238 @@
+[0.112s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.112s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74721b954f70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74721ba65ea0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74721ba65ea0>>, mixin_verb=('build',))
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.214s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/ros2/swerve_robot'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_controller) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swerve_controller' with type 'ros.ament_python' and name 'swerve_controller'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_description) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swerve_robot_description' with type 'ros.ament_cmake' and name 'swerve_robot_description'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/swerve_robot_gazebo) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swerve_robot_gazebo' with type 'ros.ament_python' and name 'swerve_robot_gazebo'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'cmake_target' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'swerve_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ros2/swerve_robot/build/swerve_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ros2/swerve_robot/install/swerve_controller', 'merge_install': False, 'path': '/workspaces/ros2/swerve_robot/src/swerve_controller', 'symlink_install': False, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'swerve_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ros2/swerve_robot/build/swerve_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ros2/swerve_robot/install/swerve_robot_description', 'merge_install': False, 'path': '/workspaces/ros2/swerve_robot/src/swerve_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'swerve_robot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'swerve_robot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ros2/swerve_robot/build/swerve_robot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo', 'merge_install': False, 'path': '/workspaces/ros2/swerve_robot/src/swerve_robot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.267s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.269s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/ros2/swerve_robot/src/swerve_controller' with build type 'ament_python'
+[0.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('swerve_controller', 'ament_prefix_path')
+[0.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/hook/ament_prefix_path.ps1'
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/hook/ament_prefix_path.dsv'
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/hook/ament_prefix_path.sh'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/ros2/swerve_robot/src/swerve_robot_description' with build type 'ament_cmake'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/ros2/swerve_robot/src/swerve_robot_description'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.490s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/ros2/swerve_robot/src/swerve_controller'
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2/swerve_robot/build/swerve_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/opt/ros/humble /usr/bin/cmake --build /workspaces/ros2/swerve_robot/build/swerve_robot_description -- -j8 -l8
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2/swerve_robot/build/swerve_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/opt/ros/humble /usr/bin/cmake --build /workspaces/ros2/swerve_robot/build/swerve_robot_description -- -j8 -l8
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2/swerve_robot/build/swerve_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/opt/ros/humble /usr/bin/cmake --install /workspaces/ros2/swerve_robot/build/swerve_robot_description
+[0.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swerve_robot_description)
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2/swerve_robot/build/swerve_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/opt/ros/humble /usr/bin/cmake --install /workspaces/ros2/swerve_robot/build/swerve_robot_description
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description' for CMake module files
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description' for CMake config files
+[0.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('swerve_robot_description', 'cmake_prefix_path')
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/hook/cmake_prefix_path.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/hook/cmake_prefix_path.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/hook/cmake_prefix_path.sh'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description/bin'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description/lib/pkgconfig/swerve_robot_description.pc'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description/lib/python3.10/site-packages'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description/bin'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.sh'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.bash'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.zsh'
+[0.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/colcon-core/packages/swerve_robot_description)
+[0.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swerve_robot_description)
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description' for CMake module files
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description' for CMake config files
+[0.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('swerve_robot_description', 'cmake_prefix_path')
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/hook/cmake_prefix_path.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/hook/cmake_prefix_path.dsv'
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/hook/cmake_prefix_path.sh'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description/bin'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description/lib/pkgconfig/swerve_robot_description.pc'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description/lib/python3.10/site-packages'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_description/bin'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.sh'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.bash'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.zsh'
+[0.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2/swerve_robot/install/swerve_robot_description/share/colcon-core/packages/swerve_robot_description)
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2/swerve_robot/src/swerve_controller': PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swerve_controller build --build-base /workspaces/ros2/swerve_robot/build/swerve_controller/build install --record /workspaces/ros2/swerve_robot/build/swerve_controller/install.log --single-version-externally-managed install_data
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_controller' for CMake module files
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2/swerve_robot/src/swerve_controller' returned '0': PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swerve_controller build --build-base /workspaces/ros2/swerve_robot/build/swerve_controller/build install --record /workspaces/ros2/swerve_robot/build/swerve_controller/install.log --single-version-externally-managed install_data
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_controller' for CMake config files
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_controller/lib'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_controller/bin'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_controller/lib/pkgconfig/swerve_controller.pc'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages'
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('swerve_controller', 'pythonpath')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/hook/pythonpath.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/hook/pythonpath.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/hook/pythonpath.sh'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_controller/bin'
+[0.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swerve_controller)
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/package.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/package.dsv'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/package.sh'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/package.bash'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/package.zsh'
+[0.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2/swerve_robot/install/swerve_controller/share/colcon-core/packages/swerve_controller)
+[0.994s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/ros2/swerve_robot/src/swerve_robot_gazebo' with build type 'ament_python'
+[0.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('swerve_robot_gazebo', 'ament_prefix_path')
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/hook/ament_prefix_path.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/hook/ament_prefix_path.dsv'
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/hook/ament_prefix_path.sh'
+[0.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.186s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/ros2/swerve_robot/src/swerve_robot_gazebo'
+[1.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2/swerve_robot/src/swerve_robot_gazebo': AMENT_PREFIX_PATH=/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_robot_description:/workspaces/ros2/turtlebot3_ws/install/turtlebot3:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_simulations:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_bringup:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_node:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_navigation2:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_fake_node:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_msgs:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_gazebo:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_description:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_cartographer:/workspaces/ros2/turtlebot3_ws/install/dynamixel_sdk_examples:/workspaces/ros2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/workspaces/ros2/turtlebot3_ws/install/dynamixel_sdk:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/workspaces/ros2/assembed/install/assembed:/opt/ros/humble PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/workspaces/ros2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swerve_robot_gazebo build --build-base /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/build install --record /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/install.log --single-version-externally-managed install_data
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo' for CMake module files
+[1.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2/swerve_robot/src/swerve_robot_gazebo' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_robot_description:/workspaces/ros2/turtlebot3_ws/install/turtlebot3:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_simulations:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_bringup:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_node:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_navigation2:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_fake_node:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_msgs:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_gazebo:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_description:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_cartographer:/workspaces/ros2/turtlebot3_ws/install/dynamixel_sdk_examples:/workspaces/ros2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/workspaces/ros2/turtlebot3_ws/install/dynamixel_sdk:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/workspaces/ros2/assembed/install/assembed:/opt/ros/humble PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/workspaces/ros2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swerve_robot_gazebo build --build-base /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/build install --record /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/install.log --single-version-externally-managed install_data
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo' for CMake config files
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/bin'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/pkgconfig/swerve_robot_gazebo.pc'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages'
+[1.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('swerve_robot_gazebo', 'pythonpath')
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/hook/pythonpath.ps1'
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/hook/pythonpath.dsv'
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/hook/pythonpath.sh'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/bin'
+[1.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swerve_robot_gazebo)
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/package.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/package.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/package.sh'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/package.bash'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/package.zsh'
+[1.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/colcon-core/packages/swerve_robot_gazebo)
+[1.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.659s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.663s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.663s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.663s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.663s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.665s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.665s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ros2/swerve_robot/install/local_setup.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/ros2/swerve_robot/install/_local_setup_util_ps1.py'
+[1.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ros2/swerve_robot/install/setup.ps1'
+[1.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ros2/swerve_robot/install/local_setup.sh'
+[1.670s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/ros2/swerve_robot/install/_local_setup_util_sh.py'
+[1.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ros2/swerve_robot/install/setup.sh'
+[1.672s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ros2/swerve_robot/install/local_setup.bash'
+[1.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ros2/swerve_robot/install/setup.bash'
+[1.674s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ros2/swerve_robot/install/local_setup.zsh'
+[1.675s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ros2/swerve_robot/install/setup.zsh'

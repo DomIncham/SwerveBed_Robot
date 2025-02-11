@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating swerve_robot_gazebo.egg-info
+writing swerve_robot_gazebo.egg-info/PKG-INFO
+writing dependency_links to swerve_robot_gazebo.egg-info/dependency_links.txt
+writing entry points to swerve_robot_gazebo.egg-info/entry_points.txt
+writing requirements to swerve_robot_gazebo.egg-info/requires.txt
+writing top-level names to swerve_robot_gazebo.egg-info/top_level.txt
+writing manifest file 'swerve_robot_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'swerve_robot_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'swerve_robot_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages/swerve-robot-gazebo.egg-link (link to .)
+
+Installed /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo
+running symlink_data
+creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/ament_index
+creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/ament_index/resource_index
+creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/resource/swerve_robot_gazebo -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/package.xml -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo
+creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/launch
+symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/launch/teleop_joy.launch.py -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/launch
+symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/launch/spawn_swerve_robot.launch.py -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/launch
+symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/launch/sim.launch.py -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/launch
+creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/config
+symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/config/xbox_holonomic.config.yaml -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/config
+creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/rviz

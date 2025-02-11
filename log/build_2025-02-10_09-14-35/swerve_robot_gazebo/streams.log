@@ -1,0 +1,30 @@
+[0.552s] Invoking command in '/workspaces/ros2/swerve_robot/build/swerve_robot_gazebo': AMENT_PREFIX_PATH=/workspaces/ros2/swerve_robot/install/swerve_robot_description:/workspaces/ros2/swerve_robot/install/swerve_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2/swerve_robot/install/swerve_robot_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages:/workspaces/ros2/swerve_robot/build/swerve_controller:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/build --no-deps symlink_data
+[0.767s] running develop
+[0.875s] running egg_info
+[0.875s] creating swerve_robot_gazebo.egg-info
+[0.875s] writing swerve_robot_gazebo.egg-info/PKG-INFO
+[0.876s] writing dependency_links to swerve_robot_gazebo.egg-info/dependency_links.txt
+[0.876s] writing entry points to swerve_robot_gazebo.egg-info/entry_points.txt
+[0.876s] writing requirements to swerve_robot_gazebo.egg-info/requires.txt
+[0.876s] writing top-level names to swerve_robot_gazebo.egg-info/top_level.txt
+[0.876s] writing manifest file 'swerve_robot_gazebo.egg-info/SOURCES.txt'
+[0.878s] reading manifest file 'swerve_robot_gazebo.egg-info/SOURCES.txt'
+[0.878s] writing manifest file 'swerve_robot_gazebo.egg-info/SOURCES.txt'
+[0.880s] running build_ext
+[0.880s] Creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages/swerve-robot-gazebo.egg-link (link to .)
+[0.881s] 
+[0.881s] Installed /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo
+[0.881s] running symlink_data
+[0.881s] creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/ament_index
+[0.881s] creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/ament_index/resource_index
+[0.881s] creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/ament_index/resource_index/packages
+[0.881s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/resource/swerve_robot_gazebo -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/ament_index/resource_index/packages
+[0.881s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/package.xml -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo
+[0.881s] creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/launch
+[0.881s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/launch/teleop_joy.launch.py -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/launch
+[0.881s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/launch/spawn_swerve_robot.launch.py -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/launch
+[0.882s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/launch/sim.launch.py -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/launch
+[0.882s] creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/config
+[0.882s] symbolically linking /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/config/xbox_holonomic.config.yaml -> /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/config
+[0.882s] creating /workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/share/swerve_robot_gazebo/rviz
+[0.914s] Invoked command in '/workspaces/ros2/swerve_robot/build/swerve_robot_gazebo' returned '0': AMENT_PREFIX_PATH=/workspaces/ros2/swerve_robot/install/swerve_robot_description:/workspaces/ros2/swerve_robot/install/swerve_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ros2/swerve_robot/install/swerve_robot_description:${CMAKE_PREFIX_PATH} PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo/lib/python3.10/site-packages:/workspaces/ros2/swerve_robot/build/swerve_controller:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2/swerve_robot/build/swerve_robot_gazebo/build --no-deps symlink_data

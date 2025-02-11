@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- Top-level file for generating the swerve drive robot -->
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="swerve_robot_base">
+    <!-- MACRO FILES, ALLOW FOR GENERATION OF THE VARIOUS PARTS-->
+
+    <!-- Import chassis and dummy base link-->
+    <xacro:include filename="$(find swerve_robot_description)/urdf/include/robot_parts/chassis.xacro" />
+
+    <!-- Import steering links and joints -->
+    <xacro:include filename="$(find swerve_robot_description)/urdf/include/robot_parts/steering.xacro" />
+
+    <!-- Import wheel links and joints -->
+    <xacro:include filename="$(find swerve_robot_description)/urdf/include/robot_parts/wheel.xacro" />
+
+    <!-- GENERATION, GENERATES THE ROBOT FROM MACROS -->
+
+    <!-- Main chassis + dummy base link -->
+    <xacro:base name="base_link" />
+    <xacro:chassis name="chassis_link" parent="base_link" />
+
+    <!-- Steering Links + Joints -->
+    <xacro:steering locationprefix="front_right" locx="0.270499999999999" locy="-0.110999999999996" orix="1.0137654547826E-05" oriy="-0.0137678232995666" />
+    <xacro:steering locationprefix="front_left" locx="0.270499999999998" locy="0.111000000000002" orix="1.01376545477705E-05" oriy="0.0137678232995651" />
+    <xacro:steering locationprefix="rear_left" locx="-0.270499999999998" locy="0.111" orix="-1.01376545469933E-05" oriy="0.0137678232995662" />
+    <xacro:steering locationprefix="rear_right" locx="-0.270499999999998" locy="-0.111" orix="-1.01376545469101E-05" oriy="0.0137678232995662" />
+
+    <!-- Wheel Links + Joints -->
+    <xacro:wheel locationprefix="front_right" orix="0" oriy="-3.71230823859037E-15" oriz="0.000625695466474632" axisy="1" />
+    <xacro:wheel locationprefix="front_left" orix="-5.55111512312578E-17" oriy="-5.3776427755281E-17" oriz="0.000625695466474618" axisy="1" />
+    <xacro:wheel locationprefix="rear_left" orix="-8.32667268468867E-17" oriy="-3.51281503885303E-17" oriz="-0.000625695466474674" axisy="1" />
+    <xacro:wheel locationprefix="rear_right" orix="0" oriy="-4.55364912443912E-17" oriz="-0.000625695466474605" axisy="1" />
+
+  </xacro:macro>
+
+</robot>
