@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/ros2/swerve_robot/build/swerve_robot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/config/sim_controllers.yaml
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/launch/description.launch.py
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/launch/rviz.launch.py
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/base_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/front_left_steering_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/front_left_wheel_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/front_right_steering_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/front_right_wheel_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/rear_left_steering_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/rear_left_wheel_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/rear_right_steering_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/rear_right_wheel_link.dae
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/rviz/description.rviz
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/robot_parts/chassis.xacro
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/robot_parts/steering.xacro
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/robot_parts/wheel.xacro
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/swerve_robot_base.xacro
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/swerve_ros2_control.xacro
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/swerve_robot.xacro
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/ament_index/resource_index/package_run_dependencies/swerve_robot_description
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/ament_index/resource_index/parent_prefix_path/swerve_robot_description
+-- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/environment/path.sh
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/environment/path.dsv
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/local_setup.bash
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/local_setup.sh
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/local_setup.zsh
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/local_setup.dsv
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.dsv
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/ament_index/resource_index/packages/swerve_robot_description
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/cmake/swerve_robot_descriptionConfig.cmake
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/cmake/swerve_robot_descriptionConfig-version.cmake
+-- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.xml

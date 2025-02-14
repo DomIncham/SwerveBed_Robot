@@ -1,0 +1,41 @@
+[0.277s] Invoking command in '/workspaces/ros2/swerve_robot/build/swerve_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/opt/ros/humble /usr/bin/cmake --build /workspaces/ros2/swerve_robot/build/swerve_robot_description -- -j8 -l8
+[0.329s] Invoked command in '/workspaces/ros2/swerve_robot/build/swerve_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/opt/ros/humble /usr/bin/cmake --build /workspaces/ros2/swerve_robot/build/swerve_robot_description -- -j8 -l8
+[0.342s] Invoking command in '/workspaces/ros2/swerve_robot/build/swerve_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/opt/ros/humble /usr/bin/cmake --install /workspaces/ros2/swerve_robot/build/swerve_robot_description
+[0.354s] -- Install configuration: ""
+[0.354s] -- Execute custom install script
+[0.355s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/config/sim_controllers.yaml
+[0.355s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/launch/description.launch.py
+[0.355s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/launch/rviz.launch.py
+[0.355s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/base_link.dae
+[0.356s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/front_left_steering_link.dae
+[0.356s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/front_left_wheel_link.dae
+[0.356s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/front_right_steering_link.dae
+[0.356s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/front_right_wheel_link.dae
+[0.356s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/rear_left_steering_link.dae
+[0.356s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/rear_left_wheel_link.dae
+[0.356s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/rear_right_steering_link.dae
+[0.357s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/meshes/rear_right_wheel_link.dae
+[0.357s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/rviz/description.rviz
+[0.357s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/robot_parts/chassis.xacro
+[0.357s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/robot_parts/steering.xacro
+[0.357s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/robot_parts/wheel.xacro
+[0.357s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/swerve_robot_base.xacro
+[0.358s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/include/swerve_ros2_control.xacro
+[0.358s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/urdf/swerve_robot.xacro
+[0.358s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/ament_index/resource_index/package_run_dependencies/swerve_robot_description
+[0.358s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/ament_index/resource_index/parent_prefix_path/swerve_robot_description
+[0.358s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/environment/ament_prefix_path.sh
+[0.358s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/environment/ament_prefix_path.dsv
+[0.358s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/environment/path.sh
+[0.359s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/environment/path.dsv
+[0.359s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/local_setup.bash
+[0.359s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/local_setup.sh
+[0.359s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/local_setup.zsh
+[0.359s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/local_setup.dsv
+[0.359s] -- Symlinking: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.dsv
+[0.372s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/ament_index/resource_index/packages/swerve_robot_description
+[0.373s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.373s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/cmake/swerve_robot_descriptionConfig.cmake
+[0.373s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/cmake/swerve_robot_descriptionConfig-version.cmake
+[0.373s] -- Up-to-date symlink: /workspaces/ros2/swerve_robot/install/swerve_robot_description/share/swerve_robot_description/package.xml
+[0.376s] Invoked command in '/workspaces/ros2/swerve_robot/build/swerve_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ros2/swerve_robot/install/swerve_robot_gazebo:/workspaces/ros2/swerve_robot/install/swerve_controller:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_teleop:/workspaces/ros2/turtlebot3_ws/install/turtlebot3_example:/workspaces/ros2/ros2_ws/install/turtlebot3_static_path:/opt/ros/humble /usr/bin/cmake --install /workspaces/ros2/swerve_robot/build/swerve_robot_description

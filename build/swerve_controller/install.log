@@ -2,12 +2,15 @@
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/swerve_joints.py
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/swerve_commander.py
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/swerve_odometer.py
+/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/swerve_serial_publisher.py
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/__pycache__/__init__.cpython-310.pyc
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/__pycache__/swerve_joints.cpython-310.pyc
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/__pycache__/swerve_commander.cpython-310.pyc
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/__pycache__/swerve_odometer.cpython-310.pyc
+/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/__pycache__/swerve_serial_publisher.cpython-310.pyc
 /workspaces/ros2/swerve_robot/install/swerve_controller/share/ament_index/resource_index/packages/swerve_controller
 /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/package.xml
+/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/launch/swerve_arduino.launch.py
 /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/launch/swerve_control_odom.launch.py
 /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/config/robot_geometry.yaml
 /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/config/controller.yaml
@@ -15,6 +18,7 @@
 /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller/swerve_joints.py
 /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller/swerve_commander.py
 /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller/swerve_odometer.py
+/workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller/swerve_serial_publisher.py
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info/requires.txt
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info/entry_points.txt
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info/PKG-INFO
@@ -22,5 +26,6 @@
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info/SOURCES.txt
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info/zip-safe
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info/top_level.txt
+/workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller/swerve_serial_publisher
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller/wheel_cmd_publisher
 /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller/wheel_odometry

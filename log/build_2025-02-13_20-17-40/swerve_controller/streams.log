@@ -1,0 +1,27 @@
+[0.714s] Invoking command in '/workspaces/ros2/swerve_robot/src/swerve_controller': PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swerve_controller build --build-base /workspaces/ros2/swerve_robot/build/swerve_controller/build install --record /workspaces/ros2/swerve_robot/build/swerve_controller/install.log --single-version-externally-managed install_data
+[0.965s] running egg_info
+[0.965s] writing ../../build/swerve_controller/swerve_controller.egg-info/PKG-INFO
+[0.965s] writing dependency_links to ../../build/swerve_controller/swerve_controller.egg-info/dependency_links.txt
+[0.965s] writing entry points to ../../build/swerve_controller/swerve_controller.egg-info/entry_points.txt
+[0.965s] writing requirements to ../../build/swerve_controller/swerve_controller.egg-info/requires.txt
+[0.966s] writing top-level names to ../../build/swerve_controller/swerve_controller.egg-info/top_level.txt
+[0.967s] reading manifest file '../../build/swerve_controller/swerve_controller.egg-info/SOURCES.txt'
+[0.968s] writing manifest file '../../build/swerve_controller/swerve_controller.egg-info/SOURCES.txt'
+[0.968s] running build
+[0.968s] running build_py
+[0.968s] copying swerve_controller/swerve_serial_publisher.py -> /workspaces/ros2/swerve_robot/build/swerve_controller/build/lib/swerve_controller
+[0.969s] running install
+[0.969s] running install_lib
+[0.970s] copying /workspaces/ros2/swerve_robot/build/swerve_controller/build/lib/swerve_controller/swerve_serial_publisher.py -> /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller
+[0.971s] byte-compiling /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller/swerve_serial_publisher.py to swerve_serial_publisher.cpython-310.pyc
+[0.972s] running install_data
+[0.972s] copying swerve_controller/swerve_serial_publisher.py -> /workspaces/ros2/swerve_robot/install/swerve_controller/share/swerve_controller/swerve_controller
+[0.972s] running install_egg_info
+[0.974s] removing '/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info' (and everything under it)
+[0.974s] Copying ../../build/swerve_controller/swerve_controller.egg-info to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages/swerve_controller-0.1.0-py3.10.egg-info
+[0.975s] running install_scripts
+[0.995s] Installing swerve_serial_publisher script to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller
+[0.995s] Installing wheel_cmd_publisher script to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller
+[0.996s] Installing wheel_odometry script to /workspaces/ros2/swerve_robot/install/swerve_controller/lib/swerve_controller
+[0.996s] writing list of installed files to '/workspaces/ros2/swerve_robot/build/swerve_controller/install.log'
+[1.025s] Invoked command in '/workspaces/ros2/swerve_robot/src/swerve_controller' returned '0': PYTHONPATH=/workspaces/ros2/swerve_robot/build/swerve_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2/swerve_robot/install/swerve_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swerve_controller build --build-base /workspaces/ros2/swerve_robot/build/swerve_controller/build install --record /workspaces/ros2/swerve_robot/build/swerve_controller/install.log --single-version-externally-managed install_data

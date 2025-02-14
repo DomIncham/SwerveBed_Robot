@@ -13,6 +13,7 @@ license = "TODO"
 scripts = [
     "wheel_cmd_publisher = swerve_controller.swerve_commander:main",
     "wheel_odometry = swerve_controller.swerve_odometer:main",
+    "swerve_serial_publisher = swerve_controller.swerve_serial_publisher:main"
 ]
 
 # only touch this for special cases

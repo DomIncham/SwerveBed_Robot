@@ -27,11 +27,11 @@
     </gazebo>
 
     <joint name="steering_${locationprefix}_joint" type="revolute">
-      <origin xyz="${locx} ${locy} -0.0769999999999952" rpy="0 0 0" />
+      <origin xyz="${locx} ${locy} -0.077" rpy="0 0 0" />
       <parent link="chassis_link" />
       <child link="${locationprefix}_steering_link" />
       <axis xyz="0 0 1" />
-      <limit effort="20" velocity="12.56" lower="-2.1" upper="2.1" />
+      <limit effort="20" velocity="6.28" lower="-1.57" upper="1.57" />
     </joint>
 
   </xacro:macro>
